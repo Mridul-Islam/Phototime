@@ -1,0 +1,88 @@
+/* ------------------------------------------------------
+
+Template name: Phototime
+Template URL: 
+Description: Photo related template
+Author: Mridul Islam
+Author URL:
+License: GNU General Public License Version 3.0
+License URL: http://www.gnu.org/licenses/gpl-3.0.html
+Version: 1.0
+
+-------------------------------------------------------
+
+1. Typography
+   1.1 Fonts
+2. Header area
+   2.1 Menu area
+   2.2 welcome text
+   2.3 social media
+3. Getting Started area
+4. Design area
+5. Community area
+6. Subscribe area
+7. download area
+8. footer area
+
+*/
+
+
+
+
+/************************* Typography area **********************/
+
+@font-face{
+    font-family: "gotham rounded";
+    src: url('fonts/GothamRoundedBook.woff') format('woff');
+}
+
+body, p{
+    font-family: gotham rounded;
+    font-size: 12px;
+    line-height: 1.3em;
+}
+
+
+
+
+/************************ Header area ***********************/
+
+.header-area{
+    /* background-image: url('images/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+     */
+
+    background: url('images/header-bg.jpg') no-repeat 0 0 / 100% 100%;
+    color: #FFFFFF;
+    text-align: center;
+    overflow: hidden;
+    padding: 30px 0;
+}
+
+/********************** 2.1 Menu area *****************/
+.menu-area ul{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu-area ul li{
+    display: inline;
+    margin: 0 30px;
+}
+.menu-area ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+}
+.menu-area ul .logo{
+    margin: 0 40px;
+    width: 50px;
+    height: auto;
+}
+
+

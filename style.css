@@ -80,6 +80,7 @@ h5{
 
 
 
+
 /************************ Header area ***********************/
 
 .container{
@@ -189,22 +190,73 @@ h5{
 
 /*************** Getting started area **********************/
 .getting-started{
-    background-color: #F5F6F8;
     overflow: hidden;
-    max-height: 365px;
+    background-color: #F5F6F8 
 }
 .getting-started .text-area{
-    padding: 70px 0;
+    padding-bottom: 105px;
+    background: url('images/hand.png') no-repeat;
+    background-size: 60% auto;
+    background-position: top right 10px;
+    margin-top: 100px;
 }
 .getting-started .image-area img{
     width: 100%;
     margin-top: 65px;
 }
-.col-1-2{
+/* .col-1-2{
     width: 50%;
     float: left;
     overflow: hidden;
-}
+} */
 .text-area p{
     margin-bottom: 40px;
 }
+strong{
+    color: black;
+    font-weight: bold;
+}
+
+
+
+/***************************** Design area ****************************/
+.design-area .container{
+    width: 90%;
+}
+.design{
+    margin-top: 150px;
+    padding-bottom: 70px;
+    width: 100%;
+    background-image: url("images/mobile.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    overflow: hidden;
+}
+.design-text{
+    width: 41%;
+    float: right;
+}
+.design-text h4{
+    margin-bottom: 0;
+    letter-spacing: 4px;
+}
+.design-text ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.design-text ul li{
+    display: inline-block;
+    padding-right:30px;
+}
+.design-text ul li a{
+    font-size: 28px;
+    font-weight: bolder;
+}
+.design-text p{
+    margin: 40px 0;
+}
+.design-text h4{
+    margin-top: 40px;
+}
+
